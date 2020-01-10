@@ -1,6 +1,7 @@
 <!DOCTYPE html lang="en">
 <head>
     <title>The Queen's Lounge's Menu</title>
+    <link rel="stylesheet" type="text/css" href="styles/restaurantStyles.css" />
 </head>
 <body>
     <header>
@@ -18,19 +19,21 @@
     <section>
         <form>
             <br>
-            <label for="name">Name: </label>
+            <label class="required" for="name">Name: </label>
             <input type="text" name="name" id="name"><br>
-            <label for="email">Email: </label>
+            <label class="required" for="email">Email: </label>
             <input type="email" name="email" id="email"><br>
-            <label for="phone">Phone: </label>
+            <label class="required" for="phone">Phone: </label>
             <input type="text" name="phone" id="phone"><br>
-            <label for="inquiry">Reason for Inquiry: </label>
+            <label class="required" for="inquiry">Reason for Inquiry: </label>
             <select name="inquiry" id="inquiry">
                 <option value="catering">Catering</option>
                 <option value="private party">Private Party</option>
                 <option value="feedback">Feedback</option>
                 <option value="other">Other</option>
             </select><br>
+            <label for="info">Additional Info: </label>
+            <textarea rows="5" cols="50" name= info id="info"></textarea><br>
             <label for="been to">Have you been to the restaurant? </label>
             <input type="radio" name="been to" id="been to" value="no">No
             <input type="radio" name="been to" id="been to" value="yes">Yes<br>
@@ -40,7 +43,6 @@
             <input type="checkbox" name="contact" id="contact" value="wednsday">W
             <input type="checkbox" name="contact" id="contact" value="thursday">Th
             <input type="checkbox" name="contact" id="contact" value="friday">F<br>
-            <label for="submit">Phone: </label>
             <input type="submit" name="submit" id="submit" value="Send Request"><br>
         </form>
     </section>

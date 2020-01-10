@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    height: 100px;
+}
+header h1 {
+    line-height: 100px;
+}
+
+nav a:visited {
+    color: red;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav a:active {
+    text-decoration: none;
+}
+
+
+.menu {
+    background-color: antiquewhite;
+}
+
+.description {
+    background-color: antiquewhite;
+}
+
+.required {
+    font-weight: bold;
+}
+
+.beverages {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.beverages td, th {
+    border: 2px solid #0a0a0a
+}
+
