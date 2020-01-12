@@ -1,36 +1,106 @@
-body {
+html {
+    height: 100%;
+}
+
+.home {
+    height: 100vh;
+    background-image: url("../img/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
-header {
-    font-family: 'Dancing Script', cursive;
-    text-align: center;
-    height: 100px;
-}
-header h1 {
-    line-height: 100px;
-}
-
-nav a:visited {
-    color: red;
+.menu {
+    height: 100vh;
+    background-image: url("../img/menu.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
-nav a:hover {
-    font-weight: bold;
+.contact {
+    height: 100vh;
+    background-image: url("../img/bar.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+nav {
+    font-size: 1.3rem;
+    font-weight: 500;
+    height: 10%;
 }
 
 nav a:active {
     text-decoration: none;
 }
 
+.jumbotron-fluid {
+    height: calc(100vh - 100px);
+}
 
-.menu {
-    background-color: antiquewhite;
+.logo  {
+    margin: 19vh 0;
+}
+
+.logo h1 {
+    margin: 10px 0;
+}
+
+.logo p {
+    font-size: 1.8rem;
+}
+
+.name {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+}
+
+.carousel {
+    background-color: rgba(0, 0, 0, .5);
+    height: 14vh;
+}
+
+.carousel h1 {
+    font-size: 4vh;
+}
+
+.title {
+    margin: 7rem;
 }
 
 .description {
-    background-color: antiquewhite;
+    text-indent: 4rem;
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+}
+.drinking {
+    margin-bottom: 10rem; 
+}
+
+.hours {
+    font-size: 1.5rem;
+}
+.menu-section {
+    height: calc(100vh - 100px);
+}
+
+.menu-items{
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 25px;
+    height: 90%;
+    color: white;
+    
 }
 
 .required {
@@ -38,11 +108,29 @@ nav a:active {
 }
 
 .beverages {
-    border-collapse: collapse;
+    margin: 10vh auto;
     width: 50%;
 }
 
-.beverages td, th {
-    border: 2px solid #0a0a0a
+.beverages td {
+    border: none !important;
+    font-size: 1.8rem;
+    padding: 15px;
 }
 
+.beverages th {
+    padding: 100px;
+    border: none !important;
+    font-size: 3rem;
+}
+
+form {
+    background-color: rgba(0, 0, 0, .5);
+  
+}
+
+footer  {
+    font-size: 1.5rem;
+    margin-top: 10rem;
+    margin-bottom: 15vh;
+}
